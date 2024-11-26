@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dessert Shop</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Delicious Desserts</h1>
+    
+    <!-- Cakes Section -->
+    <div class="product-category" id="cakes">
+      <h2>Cakes</h2>
+      <div class="products">
+        <div class="product-card">
+          <img src="cake1.jpg" alt="Chocolate Cake">
+          <h3>Chocolate Cake</h3>
+          <p>$10.00</p>
+          <button onclick="addToCart('Chocolate Cake')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="cake2.jpg" alt="Vanilla Cake">
+          <h3>Vanilla Cake</h3>
+          <p>$9.00</p>
+          <button onclick="addToCart('Vanilla Cake')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="cake3.jpg" alt="Red Velvet Cake">
+          <h3>Red Velvet Cake</h3>
+          <p>$12.00</p>
+          <button onclick="addToCart('Red Velvet Cake')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="cake4.jpg" alt="Carrot Cake">
+          <h3>Carrot Cake</h3>
+          <p>$11.00</p>
+          <button onclick="addToCart('Carrot Cake')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="cake5.jpg" alt="Strawberry Cake">
+          <h3>Strawberry Cake</h3>
+          <p>$10.00</p>
+          <button onclick="addToCart('Strawberry Cake')">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pastries Section -->
+    <div class="product-category" id="pastries">
+      <h2>Pastries</h2>
+      <div class="products">
+        <div class="product-card">
+          <img src="pastry1.jpg" alt="Croissant">
+          <h3>Croissant</h3>
+          <p>$3.00</p>
+          <button onclick="addToCart('Croissant')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="pastry2.jpg" alt="Danish">
+          <h3>Danish</h3>
+          <p>$4.00</p>
+          <button onclick="addToCart('Danish')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="pastry3.jpg" alt="Puff Pastry">
+          <h3>Puff Pastry</h3>
+          <p>$4.50</p>
+          <button onclick="addToCart('Puff Pastry')">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Frozen Desserts Section -->
+    <div class="product-category" id="frozen-desserts">
+      <h2>Frozen Desserts</h2>
+      <div class="products">
+        <div class="product-card">
+          <img src="frozen1.jpg" alt="Ice Cream">
+          <h3>Ice Cream</h3>
+          <p>$5.00</p>
+          <button onclick="addToCart('Ice Cream')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="frozen2.jpg" alt="Sorbet">
+          <h3>Sorbet</h3>
+          <p>$6.00</p>
+          <button onclick="addToCart('Sorbet')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="frozen3.jpg" alt="Gelato">
+          <h3>Gelato</h3>
+          <p>$6.50</p>
+          <button onclick="addToCart('Gelato')">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Beverages Section -->
+    <div class="product-category" id="beverages">
+      <h2>Beverages</h2>
+      <div class="products">
+        <div class="product-card">
+          <img src="shake1.jpg" alt="Vanilla Milkshake">
+          <h3>Vanilla Milkshake</h3>
+          <p>$4.00</p>
+          <button onclick="addToCart('Vanilla Milkshake')">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
